@@ -74,7 +74,7 @@ client.join(null,"pk_connect",null, (uid)=>{
     // Stream object associated with your web cam is initialized
     let localStream = AgoraRTC.createStream({
         streamID: uid,
-        audio: false,
+        audio: true,
         video: true,
         screen: false
     });
